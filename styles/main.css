@@ -1,4 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Sans:700|Slabo+27px&display=swap');
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Fira Sans', sans-serif; */
+
+
 /* Tree logo on left side of nav bar */
 .logo {
   height: auto;
@@ -32,6 +38,7 @@
 }
 
 #name-title {
+  font-family: 'Noto Sans', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,13 +51,14 @@
   text-shadow: 2px 2px 15px rgb(17, 13, 13);
 }
 
-
 .page-header{
+  font-family: 'Slabo 27px', serif;
   position: absolute;
   top: 14%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: whitesmoke;
+  text-decoration: underline;
 }
 
 
@@ -62,6 +70,7 @@
 }
 
 #about-text {
+  font-family: 'Fira Sans', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -92,32 +101,73 @@
   position: relative;
   text-align: center;
   background-color: #100f0df5;
+  /* min-height: 90vh; */
 }
 
-.projects-text {
 
+.project-container{
+  font-family: 'Fira Sans', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.158);
+  text-align: left;
+}
+
+.project-picture {
+  height: 30vh;
+  width: auto;
+  float: right;
 }
 
 #contact-page {
   position: relative;
   text-align: center;
-  background-color: #100f0dfa;
-  min-height: 20vh;
+  background-color: whitesmoke;
+  min-height: 10vh;
 }
 
-.image-container{
-  /* position: absolute; */
-}
 .contact-image {
-  height: 15vh;
+  height: 10vh;
   width: auto;
-  margin: 8vw 4vw;
+  margin: 2vw 4vw;
+  transition: all .1s ease-in-out;
 }
 
+.contact-image:hover { transform: scale(1.1); }
+
+
+.navbar {
+  background:whitesmoke !important;
+}
+
+
+/* 
 .parallax-container {
     height: 100%;
 }
   
 .parallax {
     z-index: 0;
-  }
+  } */
+
+/* body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  /* background-image: url("images/foresttrees.jpg"); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
