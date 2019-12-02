@@ -19,7 +19,7 @@
 
   /* layout of the sections or "pages" */
   .page {
-    min-height: 90vh;
+    min-height: 100vh;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -44,10 +44,21 @@
   text-shadow: 2px 2px 15px rgb(17, 13, 13);
 }
 
+
+.page-header{
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+
 #about-page {
   position: relative;
-  text-align: center;
-  background-color: #100f0dea;
+  text-align: left;
+  background-color: #100f0de1;
+  min-height: 80vh;
 }
 
 #about-text {
@@ -60,3 +71,53 @@
   padding: 10px;
   background-color: rgba(245, 245, 245, 0.158);
 }
+
+#skills-page {
+  position: relative;
+  text-align: center;
+  background-color: #100f0dea;
+}
+
+.skills-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.158);
+}
+
+#projects-page {
+  position: relative;
+  text-align: center;
+  background-color: #100f0df5;
+}
+
+.projects-text {
+
+}
+
+#contact-page {
+  position: relative;
+  text-align: center;
+  background-color: #100f0dfa;
+  min-height: 20vh;
+}
+
+.image-container{
+  /* position: absolute; */
+}
+.contact-image {
+  height: 15vh;
+  width: auto;
+  margin: 8vw 4vw;
+}
+
+.parallax-container {
+    height: 100%;
+}
+  
+.parallax {
+    z-index: 0;
+  }
