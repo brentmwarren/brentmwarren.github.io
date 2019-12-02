@@ -67,6 +67,7 @@ font-family: 'Fira Sans', sans-serif; */
   text-align: left;
   background-color: #100f0de1;
   min-height: 90vh;
+  background-image: url('../images/greyscale.jpg');
 }
 
 #about-text {
@@ -102,7 +103,6 @@ font-family: 'Fira Sans', sans-serif; */
   position: relative;
   text-align: center;
   background-color: #100f0df5;
-  /* min-height: 90vh; */
 }
 
 .project-container{
@@ -149,8 +149,7 @@ font-family: 'Fira Sans', sans-serif; */
 }
 
 .greyscale {
-  background-image: url('../images/greyscale.jpg');
-  height: 100vh;
+  /* background-image: url('../images/greyscale.jpg'); */
 }
 
 /*  
@@ -164,6 +163,7 @@ font-family: 'Fira Sans', sans-serif; */
 
 body, html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .parallax {
